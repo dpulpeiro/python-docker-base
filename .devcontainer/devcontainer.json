@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+{
+	"name": "Python 3",
+	"image" :"my-python-docker-base-image-name:dev",
+	"forwardPorts": [],
+	"remoteUser": "user",
+	"workspaceMount": "type=bind,src=${localWorkspaceFolder},dst=/app", 
+	"workspaceFolder": "/app",
+	
+	// // Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
+}
