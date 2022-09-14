@@ -1,9 +1,3 @@
----
-title: How to develop python applications with docker
-date: "2022-09-14"
-cover: python-docker.png
----
-
 Docker is a containerization technology widely used when deploying our applications to production.
 
 In this article we will discuss the pros and cons of using docker as our development environment and how to set up 
